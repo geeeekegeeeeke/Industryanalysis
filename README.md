@@ -1,0 +1,2 @@
+# Industryanalysis
+Industry analysis解决一种单一的行业认知和单一的不知道角色的定位的问题的现状
