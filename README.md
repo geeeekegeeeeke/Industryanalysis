@@ -1,6 +1,9 @@
 # Industryanalysis
 Industry analysis解决一种单一的行业认知和单一的不知道角色的定位的问题的现状
-有一天突然意识到，其实 code和writing和notes都是一种为数不多而且宝贵的检验知识和沉淀的方法，一种偏颇和偏执。
+有一天突然意识到，其实 code和writing和notes都是一种为数不多而且宝贵的
+检验知识和沉淀的方法，一种偏颇和偏执。
+
+[toc]
 
 
 ## markdown 语法
@@ -27,7 +30,35 @@ https://www.runoob.com/markdown/md-lists.html
 \*\* 正常显示星号 \*\*
 
 
+##### 区块
+> 区块中使用列表
+> 1. 第一项
+> 2. 第二项
+> + 第一项
+> + 第二项
+> + 第三项
+>
+> 
 
+> 最外层
+> > 第一层嵌套
+> > > 第二层嵌套
+
+* 第一项
+    > 菜鸟教程
+    > 学的不仅是技术更是梦想
+* 第二项
+
+
+
+##### 代码
+`printf()` 函数
+
+```javascript
+$(document).ready(function () {
+    alert('RUNOOB');
+});
+```
 
 
 
@@ -100,8 +131,10 @@ github pages的使用方法
 
 
 
-github page
-gitbook的使用方法！
+#### github pages的使用方法！
+hugo
 
+
+#### gitbook的使用方法
 
 
