@@ -22,6 +22,22 @@ echo命令就不能用 Here 文档作为参数
 
 ```
 
+## webug4.0 的部署使用和通过
+
+docker部署
+```
+docker pull area39/webug
+docker run -d -P area39/webug
+```
+
+### 通关策略
+[WEBUG4.0通关](https://cloud.tencent.com/developer/article/2005900)
+[Webug4.0靶场通关](https://xz.aliyun.com/t/12126)
+
+![webug weblog](image.png)
+
+
+
 
 
 #### ubuntu 虚拟机登录之后无法进入系统仍然停留在登录页面
@@ -38,4 +54,7 @@ ctf
 
 
 ![Alt 逆向的常见流程](image-13.png)
+
+ctf安全之隐写术：
+
 
