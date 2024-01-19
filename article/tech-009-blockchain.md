@@ -159,6 +159,8 @@ go代码实现是可以操作空区块的
 
 
 
+[Starting with version 1.18, Go has added support for generics, also known as type parameters.从 1.18 版本开始，Go 添加了对泛型（也称为类型参数）的支持](https://gobyexample.com/generics)
+
 
 
 
@@ -174,7 +176,240 @@ https://github.com/inoutcode/ethereum_book
 https://github.com/yuange1024/ethereum_yellowpaper
 
 
+## [evm learn](https://www.zaryabs.com/evm-learning-resources/)
 
+
+go泛型
+
+
+```
+package main
+
+import "fmt"
+
+func MapKeys[K comparable, V any](m map[K]V) []K {
+    r := make([]K, 0, len(m))
+    for k := range m {
+        r = append(r, k)
+    }
+    return r
+}
+
+type List[T any] struct {
+    head, tail *element[T]
+}
+
+type element[T any] struct {
+    next *element[T]
+    val  T
+}
+
+func (lst *List[T]) Push(v T) {
+    if lst.tail == nil {
+        lst.head = &element[T]{val: v}
+        lst.tail = lst.head
+    } else {
+        lst.tail.next = &element[T]{val: v}
+        lst.tail = lst.tail.next
+    }
+}
+
+func (lst *List[T]) GetAll() []T {
+    var elems []T
+    for e := lst.head; e != nil; e = e.next {
+        elems = append(elems, e.val)
+    }
+    return elems
+}
+
+func main() {
+    var m = map[int]string{1: "2", 2: "4", 4: "8"}
+
+    fmt.Println("keys:", MapKeys(m))
+
+    _ = MapKeys[int, string](m)
+
+    lst := List[int]{}
+    lst.Push(10)
+    lst.Push(13)
+    lst.Push(23)
+    fmt.Println("list:", lst.GetAll())
+}
+```
+
+函数名 MapKeys[K comparable, V any] 中的 [K comparable, V any] 部分实际上是函数的类型参数（type parameters）声明。在 Go 语言中，类型参数用于实现泛型编程，允许在函数或数据结构中使用通用的类型。
+
+在这个函数的情况下，[K comparable, V any] 表示函数 MapKeys 具有两个类型参数，分别是 K 和 V。其中，K 的约束条件是 comparable，表示 K 必须是可比较的类型。而 V 没有特定的约束条件，可以是任意类型。
+
+[firmadyne 详解](https://kms.app/archives/314/)
+
+https://tyeyeah.github.io/2020/12/13/2020-12-13-Firmadyne-and-FirmAE/
+
+https://cypherpunks-core.github.io/ethereumbook/01what-is.html
+
+
+https://github.com/liyansong2018/firmware-analysis-plus
+
+
+加速下载和访问： GitHub 通过全球分布式的内容分发网络（CDN）来提供 objects.githubusercontent.com 上的对象，以加快下载速度并提高访问性能。这使得从 GitHub 仓库获取对象更加高效和可靠。
+
+### 区块链开发实战 Hyperledger Fabric关键技术与案例分析
+
+
+
+### 区块链开发实战：以太坊关键技术与案例分析 (吴寿鹤，冯翔，刘涛，周广益) (z-lib.org)
+
+code
+```
+
+{
+  "config": {
+    "chainId": 10,
+    "homesteadBlock": 0,
+    "eip150Block": 0,
+    "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "eip155Block": 0,
+    "eip158Block": 0,
+    "byzantiumBlock": 0,
+    "constantinopleBlock": 0,
+    "petersburgBlock": 0,
+    "istanbulBlock": 0,
+    "ethash": {}
+  },
+  "nonce": "0x0",
+  "timestamp": "0x5e4a53b2",
+  "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "gasLimit": "0x47b760",
+  "difficulty": "0x80000",
+  "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "coinbase": "0x0000000000000000000000000000000000000000",
+  "alloc": {
+    "0000000000000000000000000000000000000088": {
+      "balance": "0x200000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "number": "0x0",
+  "gasUsed": "0x0",
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+}
+
+```
+
+```
+./geth --datadir db/  --rpc  --rpcaddr=0.0.0.0 --rpcport 8545 --rpccorsdomain "*" --rpcapi "eth,net,web3,personal,admin,shh,txpool,debug,miner" --noddiscover --maxpeers 30 --networkid 10 --port 30303 --mine --minerthreads 1 --therbase "0000000000000000000000000000000000000088"  console
+
+```
+./geth --datadir db --networkid 10 --http --http.corsdomain="*" --http.port 8545 --http.api db,web3,eth,debug,personal,net,miner,admin --allow-insecure-unlock --rpc.allow-unprotected-txs  --port 30303  --dev --dev.period 1  console 2>>geth.log 
+
+ ./geth --datadir db --networkid 10  --http.addr=0.0.0.0  --http --http.corsdomain="*" --http.port 8545  --rpc.enabledeprecatedpersonal --http.api db,web3,eth,debug,personal,net,miner,admin --allow-insecure-unlock --rpc.allow-unprotected-txs  --port 30303  --miner.etherbase  "0000000000000000000000000000000000000088"  console
+
+
+ ./geth --datadir db attach rpc:./db/geth.ipc
+
+
+http://shuzang.top/2019/geth-console-command/
+
+https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy
+
+```
+balance = web3.fromWei(eth.getBalance(eth.accounts[0]),"ether")
+
+ eth.blockNumber 
+
+```
+
+
+
+## 实现一个blockchain  应用一个blockchain
+go 使用statedb的基本方法和原理？
+
+![区块链开发实战，以太坊关键技术和技术解析](image-40.png)
+是否是合约创建交易,evm statedb都是在创建合约，而不是其他的东西！
+
+### dapp，大家的应用场景是什么？
+
+![Alt text](image-41.png)
+
+####  JSON-RPC  WEB3JS.API  那么go代码链接属于什么模式
+其实就是不同语言的实现而已
+通常需要前端，所以web3 js。显得就跟合适，不然难道还要再要一个后端来做交互么？
+如果有这样的项目，是什么？看几十个项目运行几十个项目，做一些笔记，当然会是一个idea!好的！
+JSON-RP 本质上是这个go lib
+
+
+### truffle 
+
+https://learnblockchain.cn/docs/truffle/quickstart.html
+
+
+```client, err := ethclient.Dial("https://cloudflare-eth.com")```
+
+## 需要什么样的人，困境是什么
+
+
+
+
+
+
+
+娓娓道来：
+https://medium.com/@deliriusz/dissecting-evm-using-go-ethereum-eth-client-implementation-part-i-transaction-execution-flow-960a1533e994
+https://github.com/Billy1900/Ethereum-tutorial-EN  以太坊源码分析，英文版
+
+[go-ethereum-code-analysis](https://github.com/ZtesoftCS/go-ethereum-code-analysis)中文版
+
+
+
+https://www.mslinn.com/blog/2018/06/13/evm-source-walkthrough.html
+
+https://cypherpunks-core.github.io/ethereumbook/02intro.html
+
+[一行命令配置Github国内镜像源](git config --global url."hub.fastgit.xyz/".insteadOf github.com/)
+
+
+```
+docker p ull ethereum/client-go pi
+
+
+docker run -d --name ethereum-node - v /Us ers/alice/ethereum : /root \ 
+p 8545 : 8545 p 30303 30303 \ 
+ethereum/ c l i e n t-go - -fast cache=512
+```
+
+要使交易被处理，必须要挖矿 这里我们启动挖矿，然后等待挖到一个区块之后就停
+止挖矿：
+必须一直挖矿的显示映射是什么？
+
+### 
+
+
+
+### 节点和区块的代码交互逻辑，理解上是存在问题上的
+
+https://github.com/Jeiwan/blockchain_go
+
+![Alt text](image-37.png)
+
+https://jeiwan.net/连接是没问题的。
+
+区块链网络是去中心化的，这意味着没有服务器来做事，也没有客户端使用服务器来获取或处理数据。区块链网络中存在节点，每个节点都是网络的正式成员。节点就是一切：它既是客户端又是服务器。记住这一点非常重要，因为它与通常的 Web 应用程序非常不同。
+
+当内存池中有足够的交易时，矿工开始挖掘新的区块。
+
+### 比特币挖到了区块，但是却没有交易数据怎么办？
+
+
+
+
+#### goland 同一个包中函数互相调用报错 undefined
+
+goland run时，如果run的包名是非main包，系统会自动编译引用同一个包的相关文件。但是如果编译的包名是main包，系统不会自动编译引用的同一包的相关文件，此时会报错：xxx变量undefined；xxx函数undefined。解决方案有两种：
+方案一：cd到对应的文件夹，使用命令go run *.go，运行当前文件夹下的所有go文件。
+方案二: 在goland设置编译配置： cnfiguration -> run kind -> Directoty即可。
+
+![Alt windows上 go run *.go报错？](image-38.png)
+
+![Alt 没有交易可能不在存储](image-39.png)
 
 
 

@@ -213,3 +213,59 @@ https://github.com/TykTechnologies/tyk
 https://github.com/TykTechnologies/tyk?tab=readme-ov-file
 
 
+## 图数据库了解
+
+
+
+## 构建信息秩序
+## 选择信息源
+## 消费信息
+
+linux 执行文件的几种方式：
+
+chmod +x 给文件可执行命令：
+
+移动到 /usr/local/bin
+或者 /usr/bin
+
+命名规范是 snake case
+struct camel case
+
+
+## rust by example  
+https://foresightnews.pro/article/detail/10089
+
+https://rust-cli.github.io/book/tutorial/index.html
+
+https://rustmagazine.org/
+
+[包含了使用rust来写一个os的项目的博客](https://zh.practice.rs/elegant-code-base.html)
+
+通过有挑战性的示例、练习题、实践项目来提升 Rust 水平，建立从入门学习到上手实战的直通桥梁
+[Rust语言圣经github](https://github.com/sunface/rust-course)
+
+# rust
+ sudo code --no-sandbox --user-data-dir ~
+
+
+ # truffle
+
+ 
+
+# 一个严谨的devSecOps开发者的工具箱！
+主要是通用工具在开发中的严谨的构造，从代码到发布产品的代码管理一整套工具。从代码编码检查，单元测试，静态动态分析，漏洞扫描和分析的一整套工具箱！
+
+
+
+
+
+
+
+ sudo code --no-sandbox --user-data-dir ~
+
+
+
+
+# 树莓派的体验和使用购买 
+
+
