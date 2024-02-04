@@ -222,3 +222,49 @@ https://rcore-os.cn/rCore-Tutorial-Book-v3/
 https://rustmagazine.github.io/rust_magazine_2021/chapter_12/lets-make-os.html
 
 
+~/.cargo/config
+```
+[source.crates-io]
+replace-with = 'tuna'
+
+[source.tuna]
+registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
+```
+
+```
+
+rustup target add riscv64gc-unknown-none-elf
+cargo install cargo-binutils
+rustup component add llvm-tools-preview
+rustup component add rust-src
+
+```
+
+然而，通过在整数字面量后面添加类型后缀，您可以显式地指定它的类型。在这种情况下，后缀 _u8 表示将整数字面量解释为 u8 类型。
+
+
+
+[rust impl git](https://github.com/MrBeanCpp/mit)
+
+git文件压缩
+全量commit备份快照，空间换时间
+
+
+gitlet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

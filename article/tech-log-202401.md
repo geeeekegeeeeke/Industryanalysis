@@ -426,3 +426,124 @@ UPDATE user SET is_admin = 1 WHERE id = 1;
 ```
 
 
+
+# wosame go principle
+
+https://archive.org/details/github.com-0voice-Introduction-to-Golang_-_2021-08-18_08-08-36
+[introduce to go](https://github.com/0voice/Introduction-to-Golang)
+https://github.com/yongxinz/gopher
+https://blog.csdn.net/github_36774378/article/details/124290796?spm=1001.2014.3001.5502
+
+
+如果要继承一个接口，你只需要在结构体中实现该接口声明的所有方法。
+
+
+```
+// 定义 Animal 接口
+interface Animal {
+  Eat()  // 声明 Eat 方法
+  Move()  // 声明 Move 方法
+}
+
+// ==== 定义 Dog Start ====
+// 定义 Dog 类
+type Dog struct {
+}
+
+// 实现 Eat 方法
+func (d *Dog) Eat() {
+  fmt.Printf("Eating bones")
+}
+
+// 实现 Move 方法
+func (d *Dog) Move() {
+  fmt.Printf("Moving with four legs")
+}
+// ==== 定义 Dog End ====
+
+// ==== 定义 Human Start ====
+// 定义 Human 类
+type Human struct {
+}
+
+// 实现 Eat 方法
+func (h *Human) Eat() {
+  fmt.Printf("Eating rice")
+}
+
+// 实现 Move 方法
+func (h *Human) Move() {
+  fmt.Printf("Moving with two legs")
+}
+// ==== 定义 Human End ====
+```
+
+#### go语言编译比rust更快的原理是什么？
+
+
+[如何编写一个全新的 Git 协议](https://linux.cn/article-6065-1.html)
+
+ 
+ ```
+ git remote add myremote go::http://example.com/repo
+ git push myremote master
+
+ ```
+[Learn-Git-Guidebook-For-Developers-Chapter-2](https://initialcommit.com/blog/Learn-Git-Guidebook-For-Developers-Chapter-2)
+
+
+https://learnblockchain-cn.translate.goog/article/4215?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc
+
+
+
+gitea organize 
+最新版本的问题迭代
+
+
+概念
+Cobra 建立在命令、参数和标志这三个结构之上。要使用 Cobra 编写一个命令行程序，需要明确这三个概念。
+
+
+
+命令（COMMAND）：命令表示要执行的操作。
+
+参数（ARG）：是命令的参数，一般用来表示操作的对象。
+
+标志（FLAG）：是命令的修饰，可以调整操作的行为。
+
+```
+要编写一个好的命令行程序，需要遵循的模式是 APPNAME VERB NOUN --ADJECTIVE 或 APPNAME COMMAND ARG --FLAG。
+
+$ hugo server --port=1313
+
+$ git clone URL --bare
+
+```
+在这种情况下，可以使用 git clone URL --bare 命令来克隆一个裸仓库。裸仓库是一个没有工作树的 Git 仓库副本，只包含版本控制的文件和元数据。它通常用于创建远程仓库或者作为共享仓库，供多个用户或团队使用。
+
+我们可以使用 options.Output、options.Verbose 等字段访问各个标志的值，并根据需要执行相应的逻辑。
+
+
+
+
+从零开始理清楚一个逻辑的耐心！和系统的轻视
+大系统，小解读
+多系统，大解读
+
+[defi developer road map](https://github.com/OffcierCia/DeFi-Developer-Road-Map)
+
+
+
+
+
+
+
+基本的git知识：
+不可以汉语登录？
+[Git-Guidebook-For-Developers-Chapter](https://initialcommit.com/blog/Learn-Git-Guidebook-For-Developers-Chapter-2)
+
+
+
+gitea故事：saas
+
+
