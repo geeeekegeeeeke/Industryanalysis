@@ -144,6 +144,16 @@ https://geth.ethereum.org/docs/developers/dapp-developer/native
 
 
 
+
+
+
+
+
+
+
+
+
+
 ### 设计奇技淫巧
 
 
@@ -306,6 +316,15 @@ http://defipulse.com/
 门槛高，需要eth比较多，少量基本是没什么用的！
 
 风险：清算，利率，gas,套利在快速eth变化中
+引入：预言机可以解决问题，方法具体
+
+
+
+
+![做市商](image-79.png)
+
+
+
 
 [curve 实操]()
 [curve fi](https://www.youtube.com/watch?v=FD9_LYlFQAg)
@@ -314,9 +333,11 @@ http://defipulse.com/
 
 
 
+![plan](image-80.png)
 
 
 
+[zkrollup](https://github.com/matter-labs/zksync-era)
 
 
 
@@ -359,16 +380,44 @@ https://vfat.tools/
 ![go blckchain](image-70.png)
 
 
-### 铭文
+### 铭文的作用？
 
 
 
 
+[awesome-blockchain-rust](https://github.com/rust-in-blockchain/awesome-blockchain-rust)
+
+https://101blockchains.com/top-blockchains-using-rust-programming-language/
+
+
+
+[upgrade eth](https://eth2book.info/latest/)
+https://leastauthority.com/community-matters/moonmath-manual/
+
+[foundry book](https://book.getfoundry.sh/)
+
+
+[Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
+
+[zk road](https://plum-lightning-36c.notion.site/Road-to-ZK-2e85993b316b4c7c831bcdc866005e1b)
+
+whiteboard
+https://zkhack.dev/whiteboard/
+
+# 闭环  
+
+
+## solana闭环
 
 
 
 
+## 合约闭环，对比不同合约代码的区别
 
 
+[defi map](https://github.com/OffcierCia/DeFi-Developer-Road-Map/blob/main/translations/README_cn.md)
 
+切片允许您引用集合中连续的元素序列，而不是整个集合。切片是一种引用，因此它没有所有权
+
+## foundry book 闭环
 

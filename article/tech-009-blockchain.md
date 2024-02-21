@@ -334,7 +334,10 @@ go 使用statedb的基本方法和原理？
 其实就是不同语言的实现而已
 通常需要前端，所以web3 js。显得就跟合适，不然难道还要再要一个后端来做交互么？
 如果有这样的项目，是什么？看几十个项目运行几十个项目，做一些笔记，当然会是一个idea!好的！
-JSON-RP 本质上是这个go lib
+JSON-RP 本质上是这个go lib ethcleint类似
+
+
+
 
 
 ### truffle 
@@ -460,4 +463,23 @@ https://github.com/crytic/awesome-ethereum-security?tab=readme-ov-file
 
 [Awesome Blockchain 很棒的区块链](https://github.com/yjjnls/awesome-blockchain?tab=readme-ov-file)
 
+
+https://www.lynalden.com/
+
+如何把gitea安装到别的盘
+本质上是如何把怎么把docker安装到别的盘
+文件配置 ROOT = D:/go-project/gitea_main/data/gitea-repositories
+但是如果我们linxu下是没有这个选项的，说明什么，说明只有挂在和扩展系统盘的说法，挂载的文件路径是没有变化的！
+
+
+看价值心法书籍：
+说的是，函数，算法和最小化的闭环等一些简单的事情，但是我确实很受启发
+
+做什么事情，像本领域优秀的人学习，仅此而已！
+
+本质上，购入到不同的平台，并没有那么大的风险。不知道我是怎么想的，很执拗貌似！
+
+自学
+
+贫穷限制了你的想象力：
 
