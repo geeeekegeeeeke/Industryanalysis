@@ -384,3 +384,217 @@ misskey-hub.net/
 
 
 
+
+# 万字解析：defi的行业！
+
+how to defi 书籍中例举的defi应用都是再以太坊上的么？
+关于 DeFi 的书籍可能会提到许多基于不同区块链平台的 DeFi 项目。以下是一些常见的区块链平台及其相关的 DeFi 项目：
+
+以太坊（Ethereum）: 以太坊是 DeFi 领域最为活跃和广泛采用的区块链平台。许多知名的 DeFi 项目都是在以太坊上构建的，包括去中心化交易所（例如Uniswap、SushiSwap）、借贷协议（例如Compound、Aave）、稳定币（例如Dai）等。
+
+Binance 智能链（Binance Smart Chain）: Binance 智能链是由加密货币交易所 Binance 推出的区块链平台。该平台提供了一些与以太坊类似的功能，并成为许多 DeFi 项目的选择，如PancakeSwap、Venus Protocol等。
+
+波卡（Polkadot）: 波卡是一个跨链平台，旨在实现不同区块链网络之间的互操作性。波卡生态系统中的一些项目也涉及 DeFi 领域，例如Acala Network、Polkastarter等。
+
+Solana: Solana 是一个高性能的区块链平台，它支持快速和低成本的交易处理。一些 DeFi 项目选择在 Solana 上构建，如Raydium、Serum等。
+
+
+##  Uniswap白皮书
+
+我的学习，问题在于没有闭环，问题在于没有深度参与 dapp项目在区块链上。
+白皮书
+社区
+源码代码的实现
+
+
+https://github.com/Dapp-Learning-DAO/Dapp-Learning
+
+
+![defi roadmap](image-85.png)
+
+
+
+
+[How to Get Rich Without Being Lucky](https://www.sohu.com/a/483915623_120760722)
+你必须有点异乎寻常，才能独自走在前沿
+https://github.com/fat-garage/how-to-get-rich-without-getting-lucky
+
+
+出租时间不会让你变得富有，因为你不能非线性地赚钱
+
+出租时间赚钱意味着你很容易被替代
+
+但这会使你深陷在工资奴隶的陷阱里。我忘了是谁，可能是纳西姆·塔勒布说的，“世界上最危险的东西是海洛因和月薪。”没错，因为它们很容易上瘾。你想要变得富有的方式恰恰是你想要变穷，那时你能做（想做）的事情只有工作，工作，再工作。
+
+想清楚你能提供的产品，然后考虑如何扩大规模
+
+收益来自重复游戏的复利
+
+选择智慧、精力充沛和正直的合作伙伴
+动机必须是内在的
+诚信反映在一个人的行为，而不是他说了什么
+
+自尊是你对自己的评价
+他的境遇是有下限的，但上限却很难说
+
+不要孤注一掷。但理性乐观的押注会带来巨大的好处。
+
+你的特殊技能可能是由那些了解你的人观察到的，而且经常是由那些了解你的人观察到的。
+
+阅读你所热爱的内容 直到你爱上阅读
+
+学习的手段是丰富的，学习的欲望是稀缺的
+
+学习讲故事和编程
+
+冷静的头脑，健康的身体，充满爱的家庭
+没有什么快速致富的方法
+
+产品化你自己
+
+
+[主权个体ppt](https://docs.google.com/presentation/d/1LsLB2r0RMc44Gp7eWnHF9loKUW_tDFDAFp7CyLTT8mw/edit#slide=id.g10c7e67fa93_0_104)
+
+
+六的人：工业社会的人，和精通技术的人。
+
+人的谦虚，输入，和熵增的本质
+可能你是一个觉得自己还不错的人，或者在面对信息的输入总是有点不削。
+或者有那么一个时刻，你选择了炫耀，炫耀，或者炫耀心理，自以为了不起的种种，那种心理很神奇，暴露你的认知，慵懒你的神经，阻挡你的学习。
+有一刻，想起来那是一种壁垒和无知导致的浪费，时间和思考的浪费。在那一刻的个体来说。在那个时期的个体来说，系统来说，没有输入，没有一种open的接收和思考整理。久而久之，就会在慢慢的熵增中逐渐越走越远。你以为你知道的很多，其实确实多，多的是信息而不是知识，多的是老旧，缺的是新意和批判性的思考和一种基于思考的模式的思维。
+这就是某一刻，从系统的复杂性，熵的自增，输入输出。对学习和思维的整理的认知
+
+[ssl证书的学习基本](https://jvns.ca/blog/2017/01/31/whats-tls/)
+
+[gpu](https://journal.hexmos.com/gpu-survival-toolkit/)
+1. Executing Parallel Tasks执行并行任务
+2. Running AI Models Efficiently高效运行人工智能模型
+3. How GPU Driven Development Solves These IssuesGPU 驱动开发如何解决这些问题
+4. CPUs are optimized for tasks that require high single-threaded performance, such as
+CPU 针对需要高单线程性能的任务进行了优化，例如
+
+General-purpose computing
+通用计算
+System operations 系统操作
+Handling complex algorithms that involve conditional branching
+处理涉及条件分支的复杂算法
+
+5. 
+
+
+##  数据备份与还原
+
+1. [飞致云的手动方法](https://metersphere.io/docs/v2.x/installation/backup_data/)
+2. [带Web界面的数据库备份工具,](https://github.com/jeessy2/backup-db)
+https://github.com/jeessy2/backup-x
+
+
+
+```
+# 默认启动rclone的配置会保存到/app/backup-x-files/rclone/rclone.conf：
+
+docker run -d --name backup-x  \
+  -p 9977:9977 \
+  -v /opt/backup-x-files:/app/backup-x-files \
+  jeessy/backup-x
+```
+
+[特斯拉灯光秀]()
+
+
+[浏览器获取所有的信息](https://mattfrisbie.substack.com/p/spy-chrome-extension?subscribe_prompt=free)
+
+[纪录片网站](https://ihavenotv.com/)
+
+
+[jakoby](https://github.com/I-Am-Jakoby) bad usb
+
+
+
+The Four Steps 四个步骤
+Understand why you should become a blockchain engineer
+了解为什么你应该成为一名区块链工程师
+Take a Blockchain Course 参加区块链课程
+Join a Hackathon, the Community, & Build
+加入黑客马拉松、社区和构建
+Start your own protocol, Take a job, Freelance & Contribute
+开始你自己的协议，接受一份工作，自由职业并做出贡献
+If you make it this far, you’ve done it! Although, I’ll add a bonus step 5 that we will talk about soon.
+如果你做到了这一步，你就成功了！不过，我会添加一个额外的步骤 5，我们很快就会讨论。
+
+5. You’ve made it! Keep learning!
+5. 你成功了！保持学习！
+
+
+rust in come book
+
+
+https://rustycab.github.io/LearnRustEasy/chapter_3/chapter_3_11.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**需求明确：**
+本机
+达蒙数据库
+
+备份位置：本机，minio,s3sync
+
+
+
+
+run big model 
+
+https://github.com/ollama/ollama.git
+
+
+go proj code 
+rust code
+eth proj source code 
+book read for buz
+
+
+
+### solana all dev resources:
+
+
+https://www.theblockbeats.info/news/29170
+
+
+rust theory and practice
+https://course.rs/basic/trait/trait.html
+
+
+
+https://www.github-zh.com/top/Rust
+
+
+唯一的区别在于增加了对变量生命周期的注释。这里，r 变量被赋予了生命周期 'a，x 被赋予了生命周期 'b，从图示上可以明显看出生命周期 'b 比 'a 小很多。
+
+
+该函数签名表明对于某些生命周期 'a，函数的两个参数都至少跟 'a 活得一样久，同时函数的返回引用也至少跟 'a 活得一样久。实际上，这意味着返回值的生命周期与参数生命周期中的较小值一致：虽然两个参数的生命周期都是标注了 'a，但是实际上这两个参数的真实生命周期可能是不一样的(生命周期 'a 不代表生命周期等于 'a，而是大于等于 'a)。
+
+
+三条消除规则
+编译器使用三条消除规则来确定哪些场景不需要显式地去标注生命周期。其中第一条规则应用在输入生命周期上，第二、三条应用在输出生命周期上。若编译器发现三条规则都不适用时，就会报错，提示你需要手动标注生命周期。
+
+每一个引用参数都会获得独自的生命周期
+
+例如一个引用参数的函数就有一个生命周期标注: fn foo<'a>(x: &'a i32)，两个引用参数的有两个生命周期标注:fn foo<'a, 'b>(x: &'a i32, y: &'b i32), 依此类推。
+
+若只有一个输入生命周期(函数参数中只有一个引用类型)，那么该生命周期会被赋给所有的输出生命周期，也就是所有返回值的生命周期都等于该输入生命周期
+
+例如函数 fn foo(x: &i32) -> &i32，x 参数的生命周期会被自动赋给返回值 &i32，因此该函数等同于 fn foo<'a>(x: &'a i32) -> &'a i32
+
+若存在多个输入生命周期，且其中一个是 &self 或 &mut self，则 &self 的生命周期被赋给所有的输出生命周期
+

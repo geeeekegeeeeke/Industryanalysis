@@ -113,3 +113,120 @@ key管理模块，push代码权限验证支持
 同步用户重名解决方法？？？涉及到onroad跳转，身份证验证问题
 
 
+## go eth source code
+https://github.com/agiletechvn/go-ethereum-code-analysis
+
+https://github.com/Billy1900/Ethereum-tutorial
+
+https://github.com/ZtesoftCS/go-ethereum-code-analysis/blob/master/go-ethereum%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md
+
+https://github.com/ABCDELabs/Understanding-Ethereum-Go-version
+
+https://learnblockchain.cn/article/3912
+
+https://github.com/learnerLj/geth-analyze/blob/main/analyzeSourceCode/EVM%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%8E%9F%E7%90%86/%E5%88%9D%E6%AD%A5%E7%90%86%E8%A7%A3%E4%BB%A5%E5%A4%AA%E5%9D%8A%E8%99%9A%E6%8B%9F%E6%9C%BA.md
+
+
+[手把手用智能合约开发去中心化交易所](https://www.zhihu.com/zvideo/1277985686630133760)
+
+
+流动性：锁定在池子的相对于美元的价值数量
+
+智能合约源码：
+https://blog.csdn.net/llslinliansheng/article/details/129404672
+
+https://learnblockchain.cn/article/4021
+https://mirror.xyz/adshao.eth/VY6aLzdjwXGif9O1C7UMuYFmivC4q5jDQqQUho6tLWY
+
+https://github.com/chennyouneng2020/Uniswap?tab=readme-ov-file
+
+
+
+[EVM 设计原理](https://learnblockchain.cn/article/4952)
+
+
+RLP(Recursive Length Prefix) 递归长度前缀编码是以太坊中最常使用的序列化格式方法。
+
+
+
+
+
+
+
+
+
+
+
+
+### 如何衡量对一个系统的理解程度？
+阅读源代码是一种漫长的修行。为了方便自检修行的结果，我们将对一个系统的理解程度划分为下面四个等级。
+
+**Level 4: 掌握（Mastering）**
+在完全理解的基础上，可以设计并编写一个全新的系统
+根据实际需求，重写系统模块
+可以使用另一种编程语言重新复现本系统
+**Level 3: 完全理解（Complete Understanding）**
+在理解的基础上，完全掌握系统各个模块实现的细节
+能快速的从系统功能模块定位到其对应的代码库的位置
+可以将系统定制化到不同的应用场景
+能对系统中的各个模块做出优化
+**Level 2: 理解（Understanding）**
+熟练使用系统的常用 API
+了解系统各个模块的调用关系
+了解部分核心模块的设计细节
+能对系统的部分模块进行简单修改/重构
+**Level 1:了解（Brief understanding）**
+了解系统设计的主要目标
+了解系统的应用场景
+了解系统的主要功能
+可以使用系统的部分的 API
+我们希望读者在阅读完本系列之后，对以太坊的理解能够达到 Level 2 - Level 3 的水平。
+
+
+
+被应用在了多种私有/联盟/Layer-2的场景中(e.g., Quorum, Binance Smart Chain, Scroll, Arbitrum , Optimism)。
+
+https://nishino.gitbook.io/wang-luo-guo-jia/kuai-su-kai-shi/1.1-xu-yan
+
+
+Rollups 是强大的区块链扩展解决方案，在过去两年中变得非常流行。有两种类型的 rollups，ZK-rollups 和 Optimistic rollups，它们的目的相同但功能不同。
+
+
+https://www.theblockbeats.info/news/34604
+
+evm 
+
+https://learnblockchain.cn/article/4952
+
+
+这个是所谓的重商主义。这个商，其实不要觉得他是在鼓吹自由贸易，他其实鼓吹的就是国家的贸易顺差。国际贸易当中，你要有顺差，你要不断的出口。这种观点当然是非常片面的。
+
+这三个方面有三个关键词，一个是自利之心，一个是市场均衡，第三个是演化秩序。
+
+ 
+，他觉得英国的这个古典经济学家的古典精神非常好，因为既能够提炼出一个理论结构，而且看起来也相当有说服力的。他认为，人类社会不仅有经济规律可言，而且这个经济规律是可以研究的。
+
+
+
+
+当我们在炫耀所谓的成就的时候，其实很少有你去看你是的经济，政治和科学技术，没有什么是我们做到的，这本身就是有很大问题的，一直追求所谓的一致性，结果就是一致性的愚蠢。
+
+有货币，消费品也可以在其中决定出价格。问题在于，一旦你涉及到高级财货，这些高级财货是需要经过一系列生产的流程才能够变成最终产品，才能满足消费者的需求的，要决定这些高级财货的价格，就需要一个东西，叫做跨期的经济核算。比如说你在年头做的投资，增加的工厂
+
+遗传，而不是择优录取本质上，是一种不知道什么玩意儿的梦想。
+
+如说粮食。但是在计划经济体制之下，由于所有的计划都必须经过中央计划委员会的处理，因此就不可避免的会面临时滞问题，面临各种各样的调配的僵化问题，使得整个经济体越来越僵化，乃至于根本没有办法达到那种有效利用资源的状态。
+
+就是 《奥地利学派经济学入门以及米塞斯思想精要》。这本书大家可以当把它当成是对米塞斯思想的一个简要的解读，也是米塞斯思想最重要的一部分。第二本书是米塞斯的 《人的行为》
+
+为什么计划经济跟民主是不能兼容的。
+
+现在的信息和思考，让人觉得，你可以没有电视，但是不能没有几个没有信息限制的电脑。
+
+当和很普通人一样的思考逻辑，说明就是low,需要更换圈子子
+
+
+因为所有的企业家都要依赖货币来进行经济核算，因此当货币本身的价值下降，使得所有的企业家的货币余额都出现了增长的情况之下，这些企业家就可能都以为自己赚到钱了，做了对的事情，而使得他们都去增加生产。就是我一核算，货币余额增加了，那我不是做了对的事情么，我应该增加生产才对啊。在这个过程当中，货币本身币值的变动构成了所有企业家犯错的一个根源。这就是商业周期的奥地利学派解释的核心。
+
+
+

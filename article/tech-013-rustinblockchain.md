@@ -79,7 +79,7 @@ https://github.com/hanakannzashi/near-contract-course-basics.git
 
 
 
-how to defi 
+### how to defi 
 
 https://nigdaemon.gitbook.io/how-to-defi-advanced-zhogn-wen-b/master
 
@@ -420,4 +420,22 @@ https://zkhack.dev/whiteboard/
 切片允许您引用集合中连续的元素序列，而不是整个集合。切片是一种引用，因此它没有所有权
 
 ## foundry book 闭环
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.fintechfestival.sg/zh/why-attend
+
+
 
