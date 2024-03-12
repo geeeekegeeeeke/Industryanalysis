@@ -71,40 +71,28 @@ rust dapp
 设计的基本app的好玩的地方
 tintinland
 
-# rust开发dapp项目的解读1..=n
+# rust开发dapp项目的解读1..=n  solana
 
 https://www.notion.so/TinTinLand-Community-3f0b56879c57411f9a04dd82ba541e6a
 
 https://github.com/hanakannzashi/near-contract-course-basics.git
 
-
-
-### how to defi 
-
-https://nigdaemon.gitbook.io/how-to-defi-advanced-zhogn-wen-b/master
-
-
-https://github.com/fltenwall/web3-awesome?tab=readme-ov-file
-
-
-[Messari](https://messari.io/)
-
-https://zhuanlan.zhihu.com/p/332546689
+https://blog.chain.link/how-to-build-and-deploy-a-solana-smart-contract-zh/
 
 
 
-https://zapper.xyz/dashboard
+# awesome-solana dev
 
-https://app.aave.com/
+https://github.com/StockpileLabs/awesome-solana-oss
 
-https://app.compound.finance
-
-
-https://app.uniswap.org/
+https://www.notion.so/Solana-9712501f28b948de906392032653b42c?pvs=4
 
 
-rust webassaly 
-rust for web3 demo 设计和实现
+https://www.theblockbeats.info/news/29170
+
+
+
+
 
 ----------------------------------------------------------
 

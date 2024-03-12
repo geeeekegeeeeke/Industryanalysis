@@ -282,3 +282,16 @@ dapp应用场景和玩玩需要精通！
 
 最后，知识比较丰富，学历比较高的人发现，替代我们的不是人工智能，而是那些比自己学历低，且喜欢拥抱变化的那群人。
 
+### rust theory and practice
+https://course.rs/basic/trait/trait.html
+
+
+
+
+
+
+
+
+
+
+
