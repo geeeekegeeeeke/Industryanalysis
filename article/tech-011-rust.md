@@ -286,10 +286,88 @@ dapp应用场景和玩玩需要精通！
 https://course.rs/basic/trait/trait.html
 
 
+会影响某个用户自身的操作进程，
 
 
 
 
+#[derive(Debug)] 这个`derive` 属性会自动创建所需的实现，使限定的`struct` 能使用 `fmt::Debug` 打印。
+
+
+
+vscode问题：
+
+问题，单元测试的时候，为什么手动执行，可以展示 1 pass
+但是如果我们是：cargo test 的方法执行的时候 0 pass
+save 
+
+
+dream your grade in github and other platform 
+dream your life for all wolrd
+
+
+[command-line rust](https://github.com/kyclark/command-line-rust?tab=readme-ov-file)
+
+
+
+https://app.codecrafters.io/tracks/rust
+
+
+**&'static**
+&'static 对于生命周期有着非常强的要求：一个引用必须要活得跟剩下的程序一样久，才能被标注为 &'static。
+
+对于字符串字面量来说，它直接被打包到二进制文件中，永远不会被 drop，因此它能跟程序活得一样久，自然它的生命周期是 'static。
+
+
+
+线程调度的方式往往取决于你使用的操作系统。总之，千万不要依赖线程的执行顺序
+
+宽带带宽和上网速度有什么关系？
+![Alt text](image-103.png)
+m -> mbps-> mbit/s
+
+![Alt text](image-101.png)
+
+![Alt text](image-102.png)
+
+下载速度和上传速度之间的区别主要是由于网络架构和通信协议的设计考虑。
+
+在典型的互联网连接中，下载是指从互联网或其他网络上的服务器接收数据到您的设备，而上传则是指将数据从您的设备发送到互联网或其他网络上的服务器。
+
+以下是导致下载速度和上传速度差异的几个因素：
+
+对称和非对称带宽：大多数互联网连接采用非对称带宽，这意味着下载速度和上传速度不相等。通常情况下，下载速度比上传速度更快。这是因为互联网服务提供商（ISP）在设计网络基础设施时通常会优先考虑典型用户的下载需求，因为大多数用户更频繁地下载大量数据（例如浏览网页、观看视频、下载文件等）。
+
+带宽分配：ISP在网络基础设施中分配带宽时，可能会给下载通道分配更多的带宽资源，以满足用户对下载速度的高需求。相比之下，上传通道可能被分配较少的带宽资源。
+
+不同的协议和技术：下载和上传使用不同的协议和技术。例如，在ADSL（Asymmetric Digital Subscriber Line）连接中，下载和上传使用不同的频谱范围，导致下载和上传速度不同。同样，对于移动网络连接，下载和上传也可能使用不同的频段和调制技术，从而导致速度差异。
+
+网络拥塞：下载和上传速度也可能受到网络拥塞的影响。如果网络中的流量非常高，特别是在繁忙的时间段或拥有大量用户的区域，可能会导致下载和上传速度都减慢。
+
+
+https://galxe.com/io.net/campaign/GCQiot4SR2
+
+https://github.com/krahets/hello-algo/releases/tag/1.0.0
+
+
+
+线程屏障(Barrier)
+在 Rust 中，可以使用 Barrier 让多个线程都执行到某个点后，才继续一起往后执行：
+
+线程局部变量：
+使用 thread_local 宏可以初始化线程局部变量，然后在线程内部使用该变量的 with 方法获取变量值
+
+
+
+言归正传， unsafe 能赋予我们 5 种超能力，这些能力在安全的 Rust 代码中是无法获取的：
+
+解引用裸指针，就如上例所示
+调用一个 unsafe 或外部的函数
+访问或修改一个可变的静态变量
+实现一个 unsafe 特征
+访问 union 中的字段
+
+活成一个标杆，凭借一些东西，特质，而不是庸俗的东西。高工的笑话！
 
 
 

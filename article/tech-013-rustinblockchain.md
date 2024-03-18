@@ -91,12 +91,182 @@ https://www.notion.so/Solana-9712501f28b948de906392032653b42c?pvs=4
 https://www.theblockbeats.info/news/29170
 
 
+### 公钥和地址的关系：
+每个密钥对包括一个私钥和一个公钥。私钥（k）是一个数字，通常是随机选出的。有了私钥，我们就可以使用椭圆曲线乘法这个单向加密函数产生一个公钥（K）。有了公钥（K），我们就可以使用一个单向加密哈希函数生成比特币地址
+
+![公钥，私钥和地址的关系](image-99.png)
+
+不同于视频proof of concept里我直接把public key当做地址用来接收转账
 
 
+cd solana-release/
+export PATH=$PWD/bin:$PATH
+
+
+
+Wrote new keypair to /root/.config/solana/id.json
+========================================================================================
+pubkey: Dj98kEThq1aF8i99MqZSRam6iCN9ZwzRZGLH6MZzs79o
+========================================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+section father author welcome chuckle ceiling buyer student wonder isolate cliff opinion
+========================================================================================
+
+solana transfer --allow-unfunded-recipient 2kAYsKBaeY1E7PWgYXaaR8hMUV3scEqeKCBssqLSUSzV 0.5
+
+终端使用方式：点击clash，点击复制终端代理命令，复制到终端，回车即可。注意每次 打开新的终端，就要重新复制一次。
+
+终端代理和浏览器代理是不一样的，默认是使用浏览 器代理而没有使用终端代理，比如我使用浏览器可以访问github，下载很快，但是终端却 访问很慢。这是因为终端没有使用代理
+
+https://github.com/mikaizhu/Notes/blob/master/Linux&Shell_script/README.md
+
+npm config set https-proxy=http://127.0.0.1:7897
+npm config set proxy=http://127.0.0.1:7897
+
+export http_proxy=http://127.0.0.1:7897  https_proxy=http://127.0.0.1:7897 all_proxy=socks5://127.0.0.1:7897
+
+curl https://api.testnet.solana.com -X POST -H "Content-Type: application/json" -d '
+    {
+        "jsonrpc": "2.0", "id": 1,
+        "method": "getBalance",
+        "params": [
+            "2kAYsKBaeY1E7PWgYXaaR8hMUV3scEqeKCBssqLSUSzV"
+        ]
+    }
+    '
+
+https://solana.com/docs/rpc/http
+
+
+wscat -c ws://api.testnet.solana.com
 
 ----------------------------------------------------------
 
+https://beta.solpg.io/
+
+
+
+npm config set fetch-retry-mintimeout 20000
+
+npm config set fetch-retry-maxtimeout 120000
+
+ npm config ls -l
+
+
+
+PUBLIC KEY IS: 6hx1X9r1qQPMFP29NQBfL6P4PGeFRMVYjY346w6hx5bL
+stringsecret KEY IS: 9b1e05c51e5c02af3a53f50f26642ac69cb973656e0d371d422d10254ba651a354c7dda6e4ccdf1af07cff16de8db1b7b8d50e08e198af10690f84df50362a8f
+
+
+![某种地址的命令行查看余额](image-104.png)
+但是为什么和通过关键词导入创建的钱包地址余额不一致。反复检查了，网络类型，都是测试网上！
+
+https://dev.helius.xyz/dashboard/app
+// const mainnet = "https://dev.helius.xyz/dashboard/app";
+const mainnet = "https://mainnet.helius-rpc.com?api-key=1ec789be-539c-4395-97b3-8016477de2bb";
+
+https://solana-labs.github.io/solana-web3.js/classes/Connection.html#requestAirdrop
+
+https://solana-labs.github.io/solana-web3.js/functions/sendAndConfirmTransaction.html
+
+
+
+
+很抱歉，由于我是一个文本模型，无法直接运行代码或展示代码的执行结果。但是，我可以为您提供示例代码，并解释代码的运行逻辑。您可以将示例代码复制到本地的开发环境中运行，以查看代码的实际效果。
+
+以下是一个使用 `solana-web3.js` 中的 `library-legacy` 包中工具类的示例代码：
+
+```javascript
+const web3 = require('@solana/web3.js');
+const { Account, sendAndConfirmTransaction, SystemProgram } = require('@solana/web3.js/library-legacy');
+
+async function main() {
+  // 连接 Solana 主网
+  const connection = new web3.Connection(web3.clusterApiUrl('mainnet-beta'));
+
+  // 创建一个新账户
+  const newAccount = new Account();
+
+  console.log('New account:', newAccount.publicKey.toBase58());
+
+  // 创建转账交易
+  const transaction = new web3.Transaction().add(
+    SystemProgram.transfer({
+      fromPubkey: newAccount.publicKey,
+      toPubkey: '目标账户地址',
+      lamports: 1000000, // 转账金额
+    })
+  );
+
+  // 设置交易的签名账户
+  transaction.feePayer = newAccount.publicKey;
+
+  // 签名交易
+  transaction.sign(newAccount);
+
+  // 发送和确认交易
+  try {
+    const confirmedTransaction = await sendAndConfirmTransaction(connection, transaction);
+    console.log('Transaction confirmed:', confirmedTransaction);
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
+
+main().catch(console.error);
+```
+
+在这个示例中，我们首先导入了 `Account`、`sendAndConfirmTransaction` 和 `SystemProgram` 类从 `@solana/web3.js/library-legacy` 包中。然后，我们创建了一个新的 Solana 账户，并使用 `publicKey` 属性打印出账户地址。
+
+接下来，我们创建了一个转账交易，将一定数量的 lamports（Solana 的最小单位）从新账户发送到目标账户。我们设置交易的签名账户为新账户，并使用 `sign()` 方法对交易进行签名。
+
+最后，我们调用 `sendAndConfirmTransaction()` 方法来发送和确认交易。如果交易成功发送并被确认，将打印出确认的交易信息。如果发生错误，将打印出相应的错误信息。
+
+请确保在运行代码之前，已正确安装 `@solana/web3.js` 包，并将目标账户地址替换为实际的值。
+
+希望这个示例能够帮助您理解如何使用 `solana-web3.js` 中的 `library-legacy` 包中的工具类。如果您有任何进一步的问题，请随时提问。
+
+solana-web3.js/blob/d3800f76bf041e308eeaf20f7c9d5f66f59c415d/packages/library-legacy下有哪些工具类
+
+
+solana account 9wjnfjfksy6HhLyXXmUYbhnibV7s3Qv52D2CmJ3swnJV
+
+
+
+
+
+
+
+
+
 # 玩法web3 code
+
+创意
+市场分配，和谐共处，解决超难的问题，人脑的机器。
+
+
+
+0:00 Intro
+1:43 Personal Background and Experience
+8:24 The Current Stage of AI
+14:42 Defining Strong AI
+21:06 Challenges from Other Companies to OpenAI
+30:16 How Individuals Should Approach the AI Boom Era
+44:33 The Dangers of AI
+55:46 The Relationship Between AI, Blockchain, and Web3
+1:05:51 How AI Affects Web3 Development
+1:10:30 The Current Status of Web3 Development
+1:25:15 The "Real Needs" of Blockchain
+1:36:24 What is ERC-3525
+1:46:12 Thought Process in Building the ERC-3525 Ecosystem
+1:57:38 The Promising Potential of ERC-3525
+2:04:14 Solv's Vision and Creating a "Large Closed Loop"
+2:12:59 How ERC-3525 Links Real World Assets (RWA)
+2:28:41 Hong Kong's New Web3 Policy
+2:40:30 How Chinese Teams Should Embrace Hong Kong's New Policy
+2:42:28 Message to Chinese Web3 Partners
+
+
 https://0xmacro.notion.site/Session-Notes-a08f34aefdc14a6cb3f1b66f4a88f034
 
 问题在于不同语言可以实现的web3项目的的玩法逻辑和交互，之后采用代码进行实现！
