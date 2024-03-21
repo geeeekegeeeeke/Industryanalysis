@@ -1058,3 +1058,78 @@ dapp
 solana
 
 defi 智能合约的
+
+
+https://medium.com/@cristobaldedu/%E4%BB%A3%E5%B8%81%E8%A7%A3%E9%94%81%E7%BB%8F%E6%B5%8E%E5%AD%A6-c54af374ae69
+
+
+https://token.unlocks.app/
+
+
+在加密货币中，Vesting Schedule是指一种奖励或股权计划，其中授予的代币或股权在一定时间内逐渐释放或“解锁”。这种计划通常用于激励团队成员或投资者，以确保他们在一段时间内持续为项目或公司做出贡献。
+
+Vesting Schedule通常包括一个“解锁计划”，该计划规定了代币或股权何时可以被释放
+
+
+https://medium.com/@cristobaldedu/%E4%BB%A3%E5%B8%81%E8%A7%A3%E9%94%81%E7%BB%8F%E6%B5%8E%E5%AD%A6-c54af374ae69
+
+ Fjord Foundry 平台中进行代币的购买
+ 是什么平台我的妈呀！
+
+
+
+冷钱包 Cold Wallet
+冷钱包(Cold Wallet)是一种脱离网络连接的离线钱包，将数字货币进行离线储存的钱包。使用者在一台离线的钱包上面生成数字货币地址和私钥，再将其保存起来。冷钱包是在不需要任何网络的情况下进行数字货币的储存，因此黑客是很难进入钱包获得私钥的，但它也不是绝对安全的，随机数不安全也会导致这个冷钱包不安全，此外硬件损坏、丢失也有可能造成数字货币的损失，因此需要做好密钥的备份。
+
+
+https://careerbooster.teachable.com/courses/enrolled/1869000
+
+
+
+元组结构体则适用于以下情况：
+
+当你的数据结构只需要简单的组合多个不同类型的值时，而不需要为字段命名或为其定义方法时，元组结构体是更适合的选项。
+
+当你的数据结构不需要进一步扩展或修改字段时，元组结构体可以提供更简洁的语法。
+
+
+枚举（Enumeration）在 Rust 中是一种特殊的数据类型，用于定义一组相关的命名值。枚举的目的是为了提供一种有效的方式来组织和表示具有有限可能取值的类型。
+
+
+企业关注的是：
+外资控股
+只要权利离得近就好
+真实不重要，这就是人的现状，翻车！
+
+优质的产品和优质服务
+但是和你人在哪儿不重要
+
+无法让人安全的生存，
+保护，坚决打击，就开始罗织罪名
+
+
+
+
+
+公司 eth
+股东 矿工
+
+全是中国人，两三个老外，800duoren
+
+rust 什么时候会使用 isize 而不是 usize？
+负数索引的时候！
+
+原因是 Rust 是一种具有强类型检查功能的静态类型语言。在 Rust 中，如果没有显式转换或比较操作，则无法直接将 1 这样的整数值分配给 b 这样的布尔变量。
+
+### blockchain-wallet
+
+https://github.com/savour-community/blockchain-wallet
+
+https://learnblockchain.cn/2019/04/11/wallet-dev-guide
+
+
+
+rust  anchor 合约！
+
+
+ecosystem solana生态源代码

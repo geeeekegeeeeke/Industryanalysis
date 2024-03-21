@@ -565,7 +565,79 @@ https://zkhack.dev/whiteboard/
 # 闭环  
 
 
-## solana闭环
+# solana 
+
+
+https://beta.solpg.io/
+
+
+http://defiplot.com/blog/solana-developer-ecosystem-report-2023/
+
+生态实战项目的源码和基础的练习与讲解必不可少！
+
+https://medium.com/@NervosCN/%E4%B8%80%E6%96%87%E4%BA%86%E8%A7%A3%E6%8F%90%E5%87%BA-rgb-%E5%8D%8F%E8%AE%AE%E7%9A%84%E6%AF%94%E7%89%B9%E5%B8%81%E4%BA%8C%E5%B1%82-ckb-08594fc017e9
+
+https://solanacookbook.com/core-concepts/pdas.html
+
+
+SPL Token中，一个代币，仅仅是一个归Token合约管理的普通的Account对象，这个对象里面的二进制数据定义了 这个代币的基本属性。其结构为：
+
+程序派生地址允许在程序之间调用时使用以编程方式生成的签名。
+
+使用程序派生地址，程序可以被授予对帐户的权限，然后将该权限转移给另一个程序。 这是可能的，因为程序可以充当授予权限的交易中的签名者。
+
+
+
+
+
+token 从何而来？
+bitcoin   eth
+是什么 ？
+
+### solana balance 和solana spl token有什么去区别？
+
+
+https://raydium.io/swap/?inputCurrency=sol&outputCurrency=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R&fixed=in
+
+https://moralis.io/?utm_source=blog&utm_medium=post&utm_campaign=How%20to%20Create%20a%20Solana%20Token%20in%205%20Steps
+
+
+https://github.com/YosephKS/solana-spl-tutorial
+
+### Solana账户和交易体系介绍
+
+https://robotechlabs.medium.com/solana%E8%B4%A6%E6%88%B7%E5%92%8C%E4%BA%A4%E6%98%93%E4%BD%93%E7%B3%BB%E4%BB%8B%E7%BB%8D-209445edbafd
+
+SPL-Token 代表 Solana 网络上的所有非原生代币，包括可替代代币和不可替代代币（NFT）。
+
+在 Solana 中，Token 的发行者通过 Solana 上的原生程序 token-program 创建一个铸币账户。 ，并存储该账户中Token的基本信息。例如，Solana Explorer 上 USDC 的铸币账户地址为 EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v。浏览器中会显示USDC Token Mint的详细信息，包括当前代币供应量、有铸造和冻结权限的地址以及代币的小数精度。
+
+
+SPL 代币是什么?
+Solana 生态系统的另一个重要组成部分是其原生 SOL 代币。SOL 是在 Solana 区块链上运行的加密货币，它还充当治理代币。因此，SOL 的持有者有可能对区块链的未来进行投票并帮助管理网络。如果你想加深对此类代币的了解，请查看我们的“什么是治理代币？"文章。
+
+img
+
+此外，SOL 是一种所谓的 SPL 代币，在本节中，我们将探讨什么是 SPL 代币。SPL 代币对于 Solana 就像ERC-20、ERC-721和ERC-1155代币对于以太坊网络一样。因此，SPL 可以被视为 Solana 区块链的代币标准。
+
+但是，如果你熟悉以太坊的代币标准，那么你就会知道 ERC-20 标
+
+Liquid Staking Tokens  lst
+tvl   total value lock
+
+https://github.com/Justin02180218/blockchain_rust
+
+因此，T: Serialize + ?Sized 的泛型约束表示类型 T 必须实现 Serialize trait，并且可以是任意大小的类型
+
+
+
+
+
+
+
+
+
+
 
 
 
