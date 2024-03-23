@@ -71,28 +71,40 @@ rust dapp
 设计的基本app的好玩的地方
 tintinland
 
-# rust开发dapp项目的解读1..=n  solana
+# rust开发dapp项目的解读1..=n
 
 https://www.notion.so/TinTinLand-Community-3f0b56879c57411f9a04dd82ba541e6a
 
 https://github.com/hanakannzashi/near-contract-course-basics.git
 
-https://blog.chain.link/how-to-build-and-deploy-a-solana-smart-contract-zh/
+
+
+how to defi 
+
+https://nigdaemon.gitbook.io/how-to-defi-advanced-zhogn-wen-b/master
+
+
+https://github.com/fltenwall/web3-awesome?tab=readme-ov-file
+
+
+[Messari](https://messari.io/)
+
+https://zhuanlan.zhihu.com/p/332546689
 
 
 
-# awesome-solana dev
+https://zapper.xyz/dashboard
 
-https://github.com/StockpileLabs/awesome-solana-oss
+https://app.aave.com/
 
-https://www.notion.so/Solana-9712501f28b948de906392032653b42c?pvs=4
-
-
-https://www.theblockbeats.info/news/29170
+https://app.compound.finance
 
 
+https://app.uniswap.org/
 
 
+rust webassaly 
+rust for web3 demo 设计和实现
 
 ----------------------------------------------------------
 
@@ -408,22 +420,4 @@ https://zkhack.dev/whiteboard/
 切片允许您引用集合中连续的元素序列，而不是整个集合。切片是一种引用，因此它没有所有权
 
 ## foundry book 闭环
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://www.fintechfestival.sg/zh/why-attend
-
-
 
