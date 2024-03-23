@@ -340,7 +340,7 @@ https://www.coingecko.com/en/coins/artrade
 
 
 
-
+![Alt text](image-102.png)
 
 
 
@@ -352,4 +352,10 @@ https://www.coingecko.com/en/coins/artrade
 
 历史：20年牛市btc从3000到60000美金。那年你还在写论文，同时，老师也给你介绍了，可惜仍然还是错过了！！！
 长期主义和一定的思考钱财的能力。
+
+
+
+https://www.sc.gov.cn/10462/10778/10876/2024/1/31/77e7162bda924c3b892eead9663e755d.shtml
+
+税收的计算方式：
 
