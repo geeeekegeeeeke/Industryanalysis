@@ -17,3 +17,7 @@ https://petertodd.org/2017/scalable-single-use-seal-asset-transfer
 
 2023出海，继续出海，大航海时代
 
+
+https://news.marsbit.co/20231207230532747219.html
+
+

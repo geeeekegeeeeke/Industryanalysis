@@ -1133,3 +1133,147 @@ rust  anchor 合约！
 
 
 ecosystem solana生态源代码
+
+a 所申请的栈上内存都会被系统回收，从而造成了 悬空指针(Dangling Pointer) 的问题。
+
+
+https://dexnav.com/
+
+
+
+钱包：
+https://github.com/Stanley666/Tutorials/blob/master/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E9%92%B1%E5%8C%85%E8%AF%A6%E8%A7%A3/README.md
+
+BIP39（Bitcoin Improvement Proposal 39）规范定义了一种将熵（entropy）转换为助记词（mnemonic）的机制。这个机制旨在提供一种人类友好的方式来生成和记忆私钥。
+
+BIP39的助记词生成原理如下：
+
+首先，根据所需的熵的比特位数，生成一个随机的熵序列。熵可以是128位（12个单词），160位（15个单词），192位（18个单词），224位（21个单词）或256位（24个单词）
+
+### hash校验为什么是零知识证明？
+
+
+它指的是证明者能够在不向验证者提供任何有用的信息的情况下，使验证者相信某个论断是正确的。
+
+零知识证明在试图以最小的信息交换量在双方之间建立信任
+仅根包含在块的哈希中。
+Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do
+然后可以通过砍掉树的树枝来压缩旧块。内部哈希值做
+not need to be stored.
+不需要存储
+
+不破坏区块哈希的情况下丢弃已用交易，区块内的交易被组织在 Merkle 树
+### btc是如何实现得？
+https://academy.binance.com/zh/articles/merkle-trees-and-merkle-roots-explained
+
+区块头，区块体，包含了很多得交易列表，但是最终只保存了，根hash,这样我们对应得验证就很简单！这就是merkle树的应用！
+
+
+#### spv
+在SPV节点上，不保存全部区块链数据，不下载区块全部交易，只保存区块头数据。所以这种节点不能验证全部交易，只能用于验证支付（
+
+不用完整得简化字符，最常用的数据，能够被接受就可以！
+
+零知识证明有三个基本特征，即：
+
+完整性：如果 statement 为 true，则诚实的验证者可以相信诚实的证明者确实拥有正确的信息。
+
+可靠性：如果 statement 为 false，则任何不诚实的证明者都无法说服诚实的验证者相信他拥有正确的信息。
+
+零知识性：如果 statement 为 true，则验证者除了从证明者那里得知 statement 为 true 以外，什么都不知道。
+
+
+
+## btc全节点怎么工作的？
+
+包含钱包（支付验证）、矿工、完整区块链数据库、网络路由节点的功能。
+
+https://github.com/klintcheng/blockchain/blob/master/btcd_1.md
+
+https://imnisen.github.io/btcd-code-peer.html
+
+https://www.cnblogs.com/X-knight/p/10759493.html
+
+https://imnisen.github.io/
+
+
+停止挖 tx
+
+实上比特币地址是椭圆曲线公钥的哈希，而非公钥本身。 
+
+
+
+
+
+### 好羡慕的启发：
+项目方没有控盘
+最后是社区 pow
+cex都没有持有然后对应的提供了这个交易对的这种东西才是好东西
+dogecoin
+btc
+ethw
+litecoin
+
+
+
+
+https://www.binance.com/zh-TC/square/post/4992776473609
+
+
+
+活动地址：https://campaign.bevm.io/helsinki
+
+我还没有去做，所以就不写这个活动了，看了一下，任务都比较简单，都是BEVM链上项目的交互。
+
+对MEVM来说，就是吸引用户参与到这个链上生态建设的一个方法，对用户来说，一是了解这个链的生态和应用情况，熟悉链的性能等各方面的表现，二是为了博取以后可能会有的空投机会，我觉得还有一个原因是获得接触这些项目的早期机会，为以后参与投资提供最直接的依据。因为很多时候我们在二级市场去投资时，市值已经很高了，而且如果没有用过项目的产品会心里没底。
+
+
+
+[BEVM活动地址](https://campaign.bevm.io/helsinki)
+
+My Key My Coin
+
+"OG" 是指"Original Gangster"（原创帮派）的缩写。这个术语起源于美国黑帮文化，最初用于描述犯罪组织中的老牌成员或领导人。
+
+
+在加密货币领域，"builder"（构建者）和"founder"（创始人）是两个常见的术语，用于描述参与和推动加密项目或区块链项目开发和建设的人员。
+
+Builder（构建者）： 在加密货币领域，"builder" 是指那些积极参与构建和开发加密项目的技术人员、开发者或工程师。他们负责设计、编码和实现加密项目的技术架构、功能和代码。Builders 通常是编写智能合约、开发区块链协议、构建钱包应用程序、设计加密算法以及开发其他与加密货币和区块链技术相关的软件工具的专业人士。他们在项目的技术实现和创新方面发挥着重要的作用。
+
+Founder（创始人）： 在加密货币领域，"founder" 是指创立或发起一个加密项目或区块链项目的个人或团队。创始人通常是项目的发起者、策划者和领导者，他们提出了项目的愿景和目标，并在项目的早期阶段起到了关键的推动和决策作用。创始人可能是技术背景的人士，也可能是商业家或投资者。他们通常负责项目的战略规划、业务开发、团队组建、市场推广、资金筹集和与外部合作伙伴的沟通
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
